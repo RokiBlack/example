@@ -1,0 +1,15 @@
+@media screen and (max-device-width:1200px) {
+    .menu{
+        display:  none;
+    }
+    .logo{
+        margin: 10px auto;
+    }
+    .short-info{
+        width: 75%;
+    }
+}
+@media screen and (max-device-width: 980px) {
+ 
+    
+}
