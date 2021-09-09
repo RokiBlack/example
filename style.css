@@ -53,6 +53,10 @@ h1::after{
     padding: 5px;
     width: max-content;
 }
+.menu li a:hover{
+    color: var(--main-color-green);
+    border-bottom: 2px solid var(--main-color-green);
+}
 .burger-menu{
     position: relative;
     display: block;
@@ -150,6 +154,8 @@ h1::after{
 .news-wrap:hover{
     width: 110%;
     left: -5%;
+    top: -3%;
+    z-index: 20;
     
 }
 .news-img{
@@ -203,4 +209,38 @@ h1::after{
     width: 80%;
     margin: auto;
     font-size: 1.15rem;
+}
+.gallery-block h1{
+    top: 40px;
+    margin-bottom: 40px;
+}
+.gallery-image{
+    padding: 30px;
+}
+.gallery-image img{
+    width: 100%;
+    height: 100%;
+}
+#btn-call-down{
+    width: 150px;
+    height: 35px;
+    margin-right: auto;
+    background-color: var(--main-color-green);
+    color: var(--main-color-broun);
+    font-weight: bold;
+    font-size: 1.25rem;
+    border-radius: 15px;
+}
+#btn-call-down:hover{
+    color: var(--main-color-white);
+    background-color: var(--main-color-broun);
+}
+.contact-block-call span{
+    display: block;
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+.timeWork{
+    list-style: none;
+    padding-left: 0;
 }
